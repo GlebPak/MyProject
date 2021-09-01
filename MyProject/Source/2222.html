@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="Css/styles.css">
+    <style>
+        a:link {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: #fff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">Глеб Пак</div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#about_me">Обо мне</a></li>
+                    <li><a href="#skills">Услуги</a></li>
+                    <li><a href="#cases">Кейсы</a></li>
+                    <li><a href="#price">Прайс</a></li>
+                    <li><a href="#responses">Отзывы</a></li>
+                    <li><a href="#Contacts">Контакты</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="main">
+        <div class="class_container"><br>
+            <h1>Привет<br>Я Глеб Пак</h1>
+            <h4>Веб-разработчик</h4>
+            <input type="submit" value="Обо мне" id="me">
+            <input type="submit" value="Мои работы">
+            <div class="about_me" id="about_me">
+                <h2>ОБО МНЕ</h2>
+                <hr class="hr" noshade>
+                <hr class="hr" noshade>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit soluta labore expedita optio impedit laboriosam voluptas, asperiores possimus quae repellendus ea distinctio culpa. Dolores minima, debitis quia omnis sed neque.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit soluta labore expedita optio impedit laboriosam voluptas, asperiores possimus quae repellendus ea distinctio culpa. Dolores minima, debitis quia omnis sed neque.</p>
+                <br>
+                <input type="button" name="resume" value="Скачать резюме">
+                <div class="skills" id="skills">
+                    <h2>ЧТО Я УМЕЮ</h2>
+                    <hr class="hr">
+                    <hr class="hr"><br>
+                    <div id="design">
+                        <img src="Img/laptop.png" alt="laptop">
+                        <h4>Веб-дизайн</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <div id="development">
+                        <img src="Img/symbol.png" alt="symbol">
+                        <h4>Разработка</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <div id="CEO">
+                        <img src="Img/starship.png" alt="starship">
+                        <h4>CEO-Оптимизация</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <div id="marketing">
+                        <img src="Img/gramophon.png" alt="gramophon">
+                        <h4>Маркетинг</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+                <div id="cases">
+                    <h2>КЕЙСЫ</h2>
+                    <hr class="hr">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+                <div id="price">
+                    <h2>Рассчет стоимости</h2>
+                    <hr class="hr">
+                    <hr class="hr"><br>
+                    <p>Выберите тип сайта</p>
+                    <select id="Site" name="Site">
+                        <option disabled selected=>Выберите тип сайта</option>
+                        <option value="Сайт-визитка">Сайт-визитка</option>
+                        <option value="Сайт компании">Сайт компании</option>
+                        <option value="Личный блог">Личный блог</option>
+                        <option value="Тематический форум">Тематический форум</option>
+                    </select>
+                </div>
+                <div id="responses">
+                    <h2>ОТЗЫВЫ</h2>
+                    <hr class="hr">
+                </div>
+                <div id="Contacts">
+                    <h2>МОИ КОНТАКТЫ</h2>
+                    <hr class="hr">
+                    <br><br>
+                    <div id="data">
+                        <p id="mail">Email:<br>
+                            razer.old52@gmail.com
+                        </p>
+                        <p id="pn">Phone Number:<br>
+                            +79147713954
+                        </p>
+                    </div><br>
+                    <div id="forms">
+                        <input type="text" name="initials" id="FIO" placeholder="Введите Ваше ФИО">
+                        <input type="email" name="email" id="email" placeholder="Введите Ваш E-mail">
+                        <br><br>
+                        <textarea id="text" placeholder="Укажите дополнительную информацию"></textarea><br><br><br>
+                        <input type="Submit" name="Send" value="Отправить" id="send">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
